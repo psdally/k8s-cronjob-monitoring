@@ -1,0 +1,15 @@
+bases:
+- ../../base
+
+generatorOptions:
+ disableNameSuffixHash: true
+ 
+namespace: local-demo-cronjobmonitor-ns
+
+patchesJson6902:
+- path: rolebinding-patch.yaml
+  target:
+    version: v1
+    kind: RoleBinding
+    group: rbac.authorization.k8s.io
+    name: cronjobmonitor

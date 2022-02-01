@@ -1,0 +1,7 @@
+- op: test
+  path: /subjects/0/name
+  value: system:serviceaccount:placeholder:default
+
+- op: replace
+  path: /subjects/0/name
+  value: system:serviceaccount:local-demo-cronjobmonitor-ns:default

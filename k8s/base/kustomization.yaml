@@ -1,0 +1,9 @@
+resources:
+- cronjobmonitor-deployment.yaml
+- role.yaml
+- rolebinding.yaml
+- good-cronjob.yaml
+- bad-cronjob.yaml
+
+generatorOptions:
+ disableNameSuffixHash: true
