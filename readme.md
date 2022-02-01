@@ -1,0 +1,1 @@
+See: https://pauldally.medium.com/monitoring-kubernetes-cronjobs-when-your-monitoring-solution-is-not-100-kubernetes-aware-f682744264a1
